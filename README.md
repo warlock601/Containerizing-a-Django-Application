@@ -9,4 +9,4 @@ We'll use an Ubuntu image on an EC2 instance, SSH into it and then install and c
   docker run hello-wrold              # this will fist download a default image and then display Hello-Docker 
 ```
 Note: If we don't use "sudo usermod -aG docker ubuntu" command, then we will need to execute docker commands using sudo. <br />
-Then build a [Docker file]() to pull the ubuntu base-image and then install python dependencies so that we can run our web-app. 
+Then build a [Docker file](https://github.com/warlock601/Containerizing-a-Django-Application/blob/366cdb8df40721762c34b1f5097454930d6dede2/Docker%20file) to pull the ubuntu base-image and then install python dependencies so that we can run our web-app. 
